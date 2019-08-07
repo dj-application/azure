@@ -23,7 +23,7 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
 |4|Increase code coverage.   | |
 
 
-### Create an Azure pipeline to build a GitHub repository
+## Create an Azure pipeline to build a GitHub repository
 
 - On GitHub
    * Register a GitHub account

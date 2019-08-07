@@ -1,9 +1,10 @@
-# azure
+# Azure
+
 [![Build Status](https://dev.azure.com/dj-azure/dao1/_apis/build/status/dj-application.azure?branchName=master)](https://dev.azure.com/dj-azure/dao1/_build/latest?definitionId=1&branchName=master)
 
 ---
 
-## Table of Contents
+## Table of contents
 - [Azure pipeline](#azure)
 - [Azure pipeline for a GitHub repo](#github)
 
@@ -16,13 +17,14 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
 
 |   |Continuous integration (CI)   |Continuous delivery (CD)   |
 |---|:---|:---|
-|   |Automatically ensure you don't ship broken code.   |Automatically deploy code to production.   |
-|   |Build faster by splitting test and build run   |Ensure deployment targets have latest code.   |
-|   |Run tests continually.   |Use tested code from CI process.     |
-|   |Increase code coverage.   | |
+|1|Automatically ensure you don't ship broken code.   |Automatically deploy code to production.   |
+|2|Build faster by splitting test and build run   |Ensure deployment targets have latest code.   |
+|3|Run tests continually.   |Use tested code from CI process.     |
+|4|Increase code coverage.   | |
 
 
 ### Create an Azure pipeline to build a GitHub repository
+
 - On GitHub
    * Register a GitHub account
    * Create a new `public` repo (e.g. `azure`) and push an initial commit (e.g. `README.md`)
@@ -32,4 +34,4 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
    * Add a `public` Azure project
    * In the project, navigate to the `Pipiline` page
    * Select the GitHub repo `azure`
-   * Build a new pipeline following the [tutorial]((https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2))
+   * Build a new pipeline following the [tutorial](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2)

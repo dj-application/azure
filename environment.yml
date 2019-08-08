@@ -1,6 +1,8 @@
-name: pandas-docs
+name: env-from-yaml
 channels:
-  - defaults
-  - conda-forge
+- pytorch
 dependencies:
-  - sphinx
+- python=3.6
+- numpy
+- pytorch # unused
+- pytest

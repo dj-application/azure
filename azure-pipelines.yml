@@ -17,13 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-# Use a specific python version
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.6'
-
-# Create and activate an Anaconda environment
-
-
-## Reference 

@@ -1,6 +1,6 @@
 # From MicrosoftDocs/pipelines-anaconda
 
- # https://github.com/MicrosoftDocs/pipelines-anaconda/blob/master/azure-pipelines.yml
+# https://github.com/MicrosoftDocs/pipelines-anaconda/blob/master/azure-pipelines.yml
 
 jobs:
 - job:

@@ -6,15 +6,28 @@
 
 ## Table of contents
 
-- [Azure Pipeline](#azure)
+- [Azure DevOps](#devops)
 
-- [Azure Pipeline for a GitHub repo](#github)
+- [What is Azure Pipeline?](#azure)
+
+- [Create an Azure Pipeline for a GitHub repo](#github)
 
 - [Customize your pipeline](#customize)
 
 - [Pipeline structures](#structure)
 
 - [Reference](#ref)
+
+
+
+## Azure DevOps
+ * Repo: a git repo (e.g. clone, fork etc)
+ * Pipeline
+ * Work Items (e.g. issue, epic )
+ * Test Plan: more for large organization
+ * Artifacts: more for a small team
+   * Create new feed and use in the pipelines
+
 
 ## What is Azure Pipeline?
 
@@ -79,11 +92,17 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
 
 
 ## Reference
+
+ * [Intro to Azure DevOps - Source Control, CI/CD, Automation](https://www.youtube.com/watch?v=H-R2bCXfz8I)
+
+
  * [Azure Pipelines Doc](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)
- * [Run pipelines with Anaconda environments](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&tabs=macos)
- * [pipelines-anaconda](https://github.com/MicrosoftDocs/pipelines-anaconda)
- * [Deploy a Python web app using CI/CD to Azure App Service](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops)
+   * [Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
+   * [Variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
+   * [Pipelines-anaconda](https://github.com/MicrosoftDocs/pipelines-anaconda)
+   * [Run pipelines with Anaconda](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&tabs=macos)
+   * [Continuous Builds for master branch and pull request](https://www.youtube.com/watch?v=vlBuNM6Wzic)
+   * [Deploy a Python web app using CI/CD to Azure App Service](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops)
+
  * [YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema)
- * [Learn in Y minutes](https://learnxinyminutes.com/docs/yaml/)
- * [Variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
- * [Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
+   * [Learn YAML in Y minutes](https://learnxinyminutes.com/docs/yaml/)

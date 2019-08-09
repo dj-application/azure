@@ -44,7 +44,7 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
 
 
 ## Customize your pipeline
-  * Edit a yml file on Azure DevOps project/pipeline/Builds => Commit and Run => yml file will be pushed to GitHub automatically  
+  * Edit a yml file on Azure DevOps project/pipeline/Builds => Commit and Run => The yml file will be pushed to GitHub automatically  
 
   * Push a new yml file to GitHub => On Azure DevOps, select `Existing Azure pipeline YAML file` => Select the yml on GitHub
 
@@ -76,12 +76,13 @@ Azure Pipelines combines **continuous integration (CI)** and **continuous delive
    * Variables may be specified at the pipeline, stage, or job level.
 
 
----
+
 ## Reference
+ * [Azure Pipelines Doc](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops)
  * [Run pipelines with Anaconda environments](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/anaconda?view=azure-devops&tabs=macos)
  * [pipelines-anaconda](https://github.com/MicrosoftDocs/pipelines-anaconda)
- * [Deploy a Python web app using CI/CD to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops)
- * [Learn in Y minutes](https://learnxinyminutes.com/docs/yaml/)
+ * [Deploy a Python web app using CI/CD to Azure App Service](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/python-webapp?view=azure-devops)
  * [YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema)
- * [Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)
+ * [Learn in Y minutes](https://learnxinyminutes.com/docs/yaml/)
  * [Variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
+ * [Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml)

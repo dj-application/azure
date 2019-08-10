@@ -1,6 +1,7 @@
-name: pandas-docs
+name: azure-docs
 channels:
   - defaults
   - conda-forge
 dependencies:
   - sphinx
+  - recommonmark
